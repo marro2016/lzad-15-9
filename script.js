@@ -51,7 +51,7 @@ class App extends React.Component {
 	render() {
 		return (
 		  	<div>
-				<form onSubmit={event => this.onSubmit(event)} style={{margin: '5px 0px 5px 0px'}}>
+				<form onSubmit={event => this.onSubmit(event)} style={{margin: '5px 10px'}}>
 			  		<label htmlFor="searchText">Search by user name</label>
 			  		<input
 						type="text"
